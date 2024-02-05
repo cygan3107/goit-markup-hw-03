@@ -1,0 +1,196 @@
+/*:root {
+    --main-black: #212121;
+    --second-black: #000000;
+    --main-blue: #2196f3;
+    --background-grey: #2f303a;
+    --main-white: #ffffff;
+    --second-white: #f5f4fa;
+    --main-grey: #757575;
+} */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+/*.head {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+}*/
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.highlight {
+    color: var(--NAVY-BLUE, #2e2f42);
+}
+.list {
+    list-style: none;
+}
+.address {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
+}
+.address:hover {
+    color: #404bbf;
+}
+.studio {
+    color: var(--NAVY-BLUE, #2e2f42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
+.studio:hover {
+    color: #404bbf;
+}
+.first {
+    background: var(--NAVY-BLUE, #2e2f42);
+}
+/*.second {
+    width: 1128px;
+    height: 104px;
+}
+.third {
+    width: 1128px;
+    height: 412px;
+}
+.fourth {
+    width: 1440px;
+    height: 732px;
+}*/
+.main {
+    color: var(--WHITE, #fff);
+    text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    color: var(--WHITE, #fff);
+    /* Button Text */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    background-color: #4d5ae5;
+}
+.button:hover {
+    background: #404bbf;
+}
+.second-item {
+    color: var(--NAVY-BLUE, #2e2f42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.second-text {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.third {
+    background: #f4f4fd;
+}
+.third-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.fourth-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.name-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.sign {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.sign-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.end {
+    background: var(--NAVY-BLUE, #2e2f42);
+}
+.end-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.highlight-end {
+    color: var(--CLOUD, #f4f4fd);
+}
