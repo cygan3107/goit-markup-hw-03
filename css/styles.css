@@ -10,7 +10,7 @@
 
 .container {
     padding: 0 15px;
-    width: 1158px;
+    width: 1158x;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -70,7 +70,6 @@ a {
 }
 .first {
     background: var(--NAVY-BLUE, #2e2f42);
-    width: 1440px;
     height: 600px;
 }
 
