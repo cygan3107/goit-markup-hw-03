@@ -34,6 +34,9 @@ a {
 .highlight {
     color: var(--NAVY-BLUE, #2e2f42);
 }
+.list {
+    list-style: none;
+}
 .list-header {
     display: flex;
     list-style: none;
@@ -92,7 +95,6 @@ a {
 .button {
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 16px 32px;
     font-family: "Roboto", sans-serif;
     color: var(--WHITE, #fff);
     font-size: 16px;
@@ -104,6 +106,7 @@ a {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     margin-left: 636px;
+    padding: 16px 32px;
 }
 .button:hover {
     background: #404bbf;
