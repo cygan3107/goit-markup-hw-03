@@ -34,15 +34,28 @@ a {
 .highlight {
     color: var(--NAVY-BLUE, #2e2f42);
 }
+/*.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
+.title {
+    width: 115px;
+    height: 24px;
+}
 .list {
     list-style: none;
 }
 .list-header {
+    width: 261px;
+    height: 24px;
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 .list-address {
     display: flex;
+    flex-direction: row;
     list-style: none;
 }
 .address {
