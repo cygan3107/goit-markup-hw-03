@@ -7,6 +7,13 @@
     --second-white: #f5f4fa;
     --main-grey: #757575;
 } */
+
+.container {
+    padding: 0 15px;
+    width: 1158px;
+    max-width: 100%;
+    margin: 0 auto;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -14,10 +21,6 @@ body {
 }
 a {
     text-decoration: none;
-}
-header {
-    width: 1440px;
-    height: 72px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -101,7 +104,6 @@ header {
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    margin-right: 635px;
     margin-left: 636px;
 }
 .button:hover {
