@@ -87,6 +87,7 @@ a {
 .first {
     background: var(--NAVY-BLUE, #2e2f42);
     height: 600px;
+    text-align: center;
 }
 
 .first-item {
@@ -118,7 +119,7 @@ a {
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    margin-left: 636px;
+
     padding: 16px 32px;
 }
 .button:hover {
