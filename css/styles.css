@@ -68,7 +68,7 @@ a {
     margin: 0 auto;
     margin-bottom: 120px;
     margin-top: 111px;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .address {
@@ -164,7 +164,7 @@ a {
     display: flex;
     list-style: none;
     margin-top: 72px;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
 }
 .image-item {
@@ -186,6 +186,9 @@ a {
     color: #2e2f42;
     padding-top: 120px;
 }
+.fourth {
+    height: 1000px;
+}
 .fourth-item {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -195,6 +198,24 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+.list-fourth {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+.image-item-fourth {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: #fff;
 }
 .name {
     font-family: "Roboto", sans-serif;
@@ -222,6 +243,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
 }
 .sign-text {
     font-family: "Roboto", sans-serif;
