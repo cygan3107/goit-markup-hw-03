@@ -89,6 +89,7 @@ a {
     flex-direction: row;
     list-style: none;
     gap: 40px;
+    padding: 24px 0;
 }
 .address {
     color: var(--SLATE, #434455);
@@ -190,8 +191,6 @@ a {
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    height: 380px;
 }
 .third-item {
     font-family: "Roboto", sans-serif;
@@ -202,7 +201,6 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
 }
 .name-text {
     padding: 32px 16px;
@@ -227,7 +225,6 @@ a {
     color: #434455;
 }
 .fourth {
-    height: 1000px;
     padding: 120px 0;
 }
 .fourth-item {
@@ -253,7 +250,6 @@ a {
 .image-item-fourth {
     background: #fff;
 }
-
 .element-image {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -283,7 +279,6 @@ a {
 }
 .end-item {
     width: 264px;
-    margin-left: 200px;
 }
 .logo-end {
     font-family: "Raleway", sans-serif;
