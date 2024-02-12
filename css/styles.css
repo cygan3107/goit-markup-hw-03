@@ -1,3 +1,6 @@
+.hidden {
+    visibility: hidden;
+}
 img {
     display: block;
     max-width: 100%;
@@ -5,7 +8,7 @@ img {
 }
 .container {
     padding: 0 15px;
-    width: 1158x;
+    width: 1158px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -23,6 +26,7 @@ a {
 .contacts {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .menu {
     display: flex;
