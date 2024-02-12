@@ -163,9 +163,6 @@ a {
     width: 1128px;
     display: flex;
     list-style: none;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    margin-top: 111px;
     gap: 24px;
 }
 .third {
