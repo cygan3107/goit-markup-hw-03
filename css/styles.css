@@ -33,6 +33,7 @@ a {
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 .contacts {
     display: flex;
