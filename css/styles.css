@@ -118,7 +118,7 @@ a {
     margin: 0 auto;
     padding-bottom: 48px;
 }
-.button {
+.button-header {
     display: block;
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
@@ -132,7 +132,6 @@ a {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     min-width: 169px;
-    height: 56px;
     padding: 16px 32px;
     border: none;
 }
@@ -162,7 +161,7 @@ a {
     color: #434455;
 }
 .list-second-item {
-    width: calc((100% -72px) / 4px);
+    width: calc((100% - 72px) / 4);
 }
 .list-second {
     height: 113px;
@@ -183,7 +182,7 @@ a {
     justify-content: center;
 }
 .image-item {
-    width: calc((100% -72px) / 4px);
+    width: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
@@ -244,6 +243,7 @@ a {
     gap: 48px 24px;
     width: 1128px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 .image-item-fourth {
     background: #fff;
