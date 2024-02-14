@@ -135,7 +135,7 @@ a {
     padding: 16px 32px;
     border: none;
 }
-.button:hover {
+.button-header:hover {
     background: #404bbf;
 }
 .second {
@@ -164,8 +164,6 @@ a {
     width: calc((100% - 72px) / 4);
 }
 .list-second {
-    height: 113px;
-    width: 1128px;
     display: flex;
     list-style: none;
     gap: 24px;
