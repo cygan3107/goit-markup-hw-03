@@ -31,14 +31,9 @@ body {
 a {
     text-decoration: none;
 }
-.head {
+.menu {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-}
-.menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 .nav-menu {
     display: flex;
