@@ -35,12 +35,12 @@ a {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
 }
-.contacts {
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.nav {
+.nav-menu {
     display: flex;
     align-items: center;
 }
@@ -58,9 +58,6 @@ a {
 }
 .highlight {
     color: var(--NAVY-BLUE, #2e2f42);
-}
-.list {
-    list-style: none;
 }
 .list-nav {
     display: flex;
@@ -102,11 +99,11 @@ a {
 .address:hover {
     color: #404bbf;
 }
-.first {
+.section-effective {
     background: var(--NAVY-BLUE, #2e2f42);
     padding: 188px 0;
 }
-.first-item {
+.effective-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -118,7 +115,7 @@ a {
     margin: 0 auto;
     padding-bottom: 48px;
 }
-.button-header {
+.button-order {
     display: block;
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
@@ -135,13 +132,21 @@ a {
     padding: 16px 32px;
     border: none;
 }
-.button-header:hover {
+.button-order:hover {
     background: #404bbf;
 }
-.second {
+.section-description {
     padding: 120px 0;
 }
-.second-item {
+.description-list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.desciption-block {
+    width: calc((100% - 72px) / 4);
+}
+.desciption-list-name {
     color: var(--NAVY-BLUE, #2e2f42);
     /* Header 3 */
     font-family: Roboto;
@@ -152,21 +157,13 @@ a {
     letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
-.second-text {
+.description-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.list-second-item {
-    width: calc((100% - 72px) / 4);
-}
-.list-second {
-    display: flex;
-    list-style: none;
-    gap: 24px;
 }
 .third {
     background: #f4f4fd;
