@@ -143,10 +143,10 @@ a {
     list-style: none;
     gap: 24px;
 }
-.desciption-block {
+.description-block {
     width: calc((100% - 72px) / 4);
 }
-.desciption-list-name {
+.description-list-name {
     color: var(--NAVY-BLUE, #2e2f42);
     /* Header 3 */
     font-family: Roboto;
@@ -165,25 +165,11 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.third {
+.section-team {
     background: #f4f4fd;
     padding: 120px 0;
 }
-.list-third {
-    display: flex;
-    list-style: none;
-    margin-top: 72px;
-    gap: 24px;
-    justify-content: center;
-}
-.image-item {
-    width: calc((100% - 72px) / 4);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-    border-radius: 0 0 4px 4px;
-}
-.third-item {
+.team-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -193,6 +179,20 @@ a {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+.list-team {
+    display: flex;
+    list-style: none;
+    margin-top: 72px;
+    gap: 24px;
+    justify-content: center;
+}
+.image-team {
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 .name-text {
     padding: 32px 16px;
@@ -216,10 +216,10 @@ a {
     text-align: center;
     color: #434455;
 }
-.fourth {
+.section-portfolio {
     padding: 120px 0;
 }
-.fourth-item {
+.portfolio-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -230,7 +230,7 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.list-fourth {
+.list-portfolio {
     display: flex;
     list-style: none;
     flex-direction: row;
@@ -240,7 +240,7 @@ a {
     margin: 0 auto;
     box-sizing: content-box;
 }
-.image-item-fourth {
+.image-portfolio {
     background: #fff;
 }
 .element-image {
