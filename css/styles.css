@@ -31,18 +31,17 @@ body {
 a {
     text-decoration: none;
 }
-header {
+.head {
     border-bottom: 1px solid #e7e9fc;
 }
 .menu {
     display: flex;
+    align-items: center;
 }
 .nav-menu {
     display: flex;
     align-items: center;
-}
-.title {
-    margin-right: 76px;
+    margin-right: auto;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -52,6 +51,7 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .highlight {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -61,7 +61,7 @@ header {
     list-style: none;
     gap: 40px;
     padding: 24px 0;
-    margin-right: 332px;
+    margin: 0;
 }
 .studio {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -110,7 +110,7 @@ header {
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .button-order {
     display: block;
@@ -128,6 +128,7 @@ header {
     min-width: 169px;
     padding: 16px 32px;
     border: none;
+    margin: 0;
 }
 .button-order:hover {
     background: #404bbf;
@@ -140,6 +141,7 @@ header {
     list-style: none;
     gap: 24px;
     padding: 0;
+    margin: 0;
 }
 .description-block {
     width: calc((100% - 72px) / 4);
@@ -154,6 +156,7 @@ header {
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
+    margin: 0;
 }
 .description-text {
     font-family: "Roboto", sans-serif;
@@ -161,6 +164,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    margin: 0;
 }
 .section-team {
     background: #f4f4fd;
@@ -182,6 +186,7 @@ header {
     list-style: none;
     gap: 24px;
     padding: 0;
+    margin: 0;
 }
 .image-team {
     width: calc((100% - 72px) / 4);
@@ -234,14 +239,15 @@ header {
     gap: 48px 24px;
     width: 1128px;
     padding: 0;
+    margin: 0;
 }
 .image-portfolio {
     background: #fff;
 }
 .element-image {
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
 }
 .sign {
     font-family: "Roboto", sans-serif;
