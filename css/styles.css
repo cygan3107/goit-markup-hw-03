@@ -60,7 +60,6 @@ a {
     display: flex;
     list-style: none;
     gap: 40px;
-    padding: 24px 0;
     margin: 0;
 }
 .studio {
@@ -72,6 +71,7 @@ a {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .studio:hover {
     color: #404bbf;
@@ -96,11 +96,11 @@ a {
 .address:hover {
     color: #404bbf;
 }
-.section-effective {
+.hero {
     background: var(--NAVY-BLUE, #2e2f42);
     padding: 188px 0;
 }
-.effective-name {
+.hero-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -112,7 +112,7 @@ a {
     margin: 0 auto;
     margin-bottom: 48px;
 }
-.button-order {
+.hero-button {
     display: block;
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
@@ -130,23 +130,24 @@ a {
     border: none;
     margin: 0;
 }
-.button-order:hover {
+.hero-button:hover {
     background: #404bbf;
 }
-.section-description {
+.features {
     padding: 120px 0;
 }
-.description-list {
+.features-list {
     display: flex;
     list-style: none;
     gap: 24px;
     padding: 0;
     margin: 0;
 }
-.description-block {
+.features-block {
     width: calc((100% - 72px) / 4);
+    margin: 0;
 }
-.description-list-name {
+.features-name {
     color: var(--NAVY-BLUE, #2e2f42);
     /* Header 3 */
     font-family: Roboto;
@@ -156,9 +157,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
-    margin: 0;
 }
-.description-text {
+.features-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -166,7 +166,7 @@ a {
     color: #434455;
     margin: 0;
 }
-.section-team {
+.team {
     background: #f4f4fd;
     padding: 120px 0;
 }
@@ -181,24 +181,25 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.list-team {
+.team-list {
     display: flex;
     list-style: none;
     gap: 24px;
     padding: 0;
     margin: 0;
 }
-.image-team {
+.team-image {
     width: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     border-radius: 0 0 4px 4px;
 }
-.name-text {
+.team-description {
     padding: 32px 16px;
+    margin: 0;
 }
-.name {
+.team-description-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -208,7 +209,7 @@ a {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.name-description {
+.team-description-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -217,7 +218,7 @@ a {
     text-align: center;
     color: #434455;
 }
-.section-portfolio {
+.portfolio {
     padding: 120px 0;
 }
 .portfolio-name {
@@ -231,7 +232,7 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.list-portfolio {
+.portfolio-list {
     box-sizing: content-box;
     display: flex;
     list-style: none;
@@ -241,15 +242,15 @@ a {
     padding: 0;
     margin: 0;
 }
-.image-portfolio {
+.portfolio-image {
     background: #fff;
 }
-.element-image {
+.portfolio-descritption {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
 }
-.sign {
+.portfolio-descritption-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -258,7 +259,7 @@ a {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.sign-text {
+.portfolio-descritption-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
